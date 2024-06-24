@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicios de prueba</title>
+</head>
+
+<body>
+    <main id="principal">
+        <div id="respuestas" class="bloque"></div>
+        <section id="ejercicio1">
+            <label for="edad">Ingrese su edad</label>
+            <input id="tiempo" type="text" name="edad">
+            <button class="aceptar" onclick="escribirEdad()">Escribir</button>
+        </section>
+
+        <section id="ejercicio2">
+            <label for="numero">Ingrese un número</label>
+            <input id="num" type="text" name="numero">
+            <button class="aceptar" onclick="cuentaAtras()">Cuenta atrás</button>
+        </section>
+
+        <section id="ejercicio3">
+            <label for="tablas">Tablas de multiplicar</label>
+            <button class="aceptar" onclick="tablas()">Imprimir tablas</button>
+        </section>
+
+        <section id="ejercicio4">
+            <h3>Ingrese datos por el promt</h3>
+            <p>La lista se mostrará arriba</p>
+            <button class="aceptar" onclick="imprimedatos()">Imprime datos</button>
+        </section>
+
+        <button class="eliminar" onclick="borrar()">Limpiar datos</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
